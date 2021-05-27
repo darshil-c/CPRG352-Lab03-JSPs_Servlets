@@ -13,19 +13,19 @@
     </head>
     <body>
         <h1>Arithmetic Calculator</h1>
-        <form action="" method="">
+        <form action="arithmetic" method="post">
             <label for="first_id">First:</label>
-            <input type="text" name="first" id="first_id">
+            <input type="text" name="first" id="first_id" value="${first}">
             <br>
             <label for="second_id">Second:</label>
-            <input type="text" name="second" id="second_id">
+            <input type="text" name="second" id="second_id" value="${second}">
             <br>
             <input type="submit" value="+" name="add">
             <input type="submit" value="-" name="sub">
             <input type="submit" value="*" name="mult">
             <input type="submit" value="%" name="mod">
         </form>
-        <p></p>
+        <p>${message}</p>
         <a href="/Lab3_Calculators/age">Age Calculator</a>
     </body>
 </html>
