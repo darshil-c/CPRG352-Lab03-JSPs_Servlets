@@ -20,10 +20,10 @@
             <label for="second_id">Second:</label>
             <input type="text" name="second" id="second_id">
             <br>
-            <input type="submit" value="+">
-            <input type="submit" value="-">
-            <input type="submit" value="*">
-            <input type="submit" value="%">
+            <input type="submit" value="+" name="add">
+            <input type="submit" value="-" name="sub">
+            <input type="submit" value="*" name="mult">
+            <input type="submit" value="%" name="mod">
         </form>
         <p></p>
         <a href="/Lab3_Calculators/age">Age Calculator</a>

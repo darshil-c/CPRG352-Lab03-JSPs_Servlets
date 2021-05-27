@@ -13,13 +13,13 @@
     </head>
     <body>
         <h1>Age Calculator</h1>
-        <form action="" method="">
+        <form action="age" method="post">
             <label for="age_id">Enter Your Age:</label>
-            <input type="text" name="age" id="age_id">
+            <input type="text" name="age" id="age_id" value="${age}">
             <br>
             <input type="submit" value="Age Next Birthday">
         </form>
-        <p></p>
+        <p>${message}</p>
         <a href="/Lab3_Calculators/calculator">Arithmetic Calculator</a>
     </body>
 </html>
