@@ -14,7 +14,16 @@
     <body>
         <h1>Arithmetic Calculator</h1>
         <form action="" method="">
-            
+            <label for="first_id">First:</label>
+            <input type="text" name="first" id="first_id">
+            <br>
+            <label for="second_id">Second:</label>
+            <input type="text" name="second" id="second_id">
+            <br>
+            <input type="submit" value="+">
+            <input type="submit" value="-">
+            <input type="submit" value="*">
+            <input type="submit" value="%">
         </form>
         <p></p>
         <a href="/Lab3_Calculators/age">Age Calculator</a>
