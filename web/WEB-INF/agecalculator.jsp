@@ -20,6 +20,6 @@
             <input type="submit" value="Age Next Birthday">
         </form>
         <p>${message}</p>
-        <a href="/Lab3_Calculators/calculator">Arithmetic Calculator</a>
+        <a href="/arithmetic">Arithmetic Calculator</a>
     </body>
 </html>
